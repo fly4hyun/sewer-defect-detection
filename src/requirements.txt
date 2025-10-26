@@ -1,0 +1,18 @@
+# requirements.txt
+
+# ── DL 프레임워크 ──
+torch==2.5.0+cu118          # CUDA 11.8 GPU 기준. CPU-only면 "+cu118" 빼세요
+torchvision==0.20.0+cu118
+ultralytics==8.3.18         # YOLO 핵심 라이브러리
+
+# ── 데이터·전처리 ──
+albumentations==1.4.20
+opencv-python==4.10.0.84
+pandas==2.2.3
+
+# ── 모델 부가 ──
+timm==1.0.11                # 일부 백본용
+PyYAML==6.0.2
+
+# ── 시각화 ──
+matplotlib==3.9.2
